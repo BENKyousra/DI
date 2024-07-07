@@ -3,9 +3,12 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: hidden;
-    font-family: 'arial' , sans-serif;
+    font-family:'Alien', sans-serif;
 }
-
+@font-face {
+  font-family: 'Alien';
+  src: url('AlienRobot-B6nl.ttf')
+}
 .video-background {
     position: relative;
     height: 100%;
@@ -61,7 +64,7 @@ body, html {
   }
 .frame {
     width: 100%;
-    margin-top:-35%;
+    margin-top: -35%;
     position: absolute;
     opacity: 0; /* Initialement caché */
     animation-name: slideDown;
@@ -90,7 +93,7 @@ body, html {
 .fade2 {
 opacity: 0; /* Initialement caché */
 animation-name: fadeIn;
-animation-delay: 5s;
+animation-delay: 6s;
 animation-duration: 2s; /* Durée de l'animation */
 animation-timing-function: ease-in-out; /* Fonction de timing */
 animation-fill-mode: forwards; /* Pour garder l'état final */
@@ -98,8 +101,16 @@ animation-fill-mode: forwards; /* Pour garder l'état final */
 .fade3 {
     opacity: 0; /* Initialement caché */
     animation-name: fadeIn;
-    animation-delay: 6s;
+    animation-delay: 7s;
     animation-duration: 2s; /* Durée de l'animation */
     animation-timing-function: ease-in-out; /* Fonction de timing */
     animation-fill-mode: forwards; /* Pour garder l'état final */
     }
+    .fade4 {
+      opacity: 0; /* Initialement caché */
+      animation-name: fadeIn;
+      animation-delay: 8s;
+      animation-duration: 2s; /* Durée de l'animation */
+      animation-timing-function: ease-in-out; /* Fonction de timing */
+      animation-fill-mode: forwards; /* Pour garder l'état final */
+      }
