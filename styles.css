@@ -44,7 +44,7 @@ body, html {
     }
   }
 .logo {
-    width:200px ;
+    width:20vw ;
     opacity: 0; /* Initialement caché */
     animation-name: fadeIn;
     animation-delay: 2s;
@@ -64,7 +64,7 @@ body, html {
   }
 .frame {
     width: 100%;
-    margin-top: -35%;
+    margin-top: -33%;
     position: absolute;
     opacity: 0; /* Initialement caché */
     animation-name: slideDown;
@@ -98,19 +98,9 @@ animation-duration: 2s; /* Durée de l'animation */
 animation-timing-function: ease-in-out; /* Fonction de timing */
 animation-fill-mode: forwards; /* Pour garder l'état final */
 }
-.fade3 {
-    opacity: 0; /* Initialement caché */
-    animation-name: fadeIn;
-    animation-delay: 7s;
-    animation-duration: 2s; /* Durée de l'animation */
-    animation-timing-function: ease-in-out; /* Fonction de timing */
-    animation-fill-mode: forwards; /* Pour garder l'état final */
-    }
-    .fade4 {
-      opacity: 0; /* Initialement caché */
-      animation-name: fadeIn;
-      animation-delay: 8s;
-      animation-duration: 2s; /* Durée de l'animation */
-      animation-timing-function: ease-in-out; /* Fonction de timing */
-      animation-fill-mode: forwards; /* Pour garder l'état final */
-      }
+h2 {
+  font-size: 3vw;
+}
+p{
+  font-size: 2vw;
+}
